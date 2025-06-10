@@ -28,6 +28,7 @@ import camera2 from "./camera2.png";
 import learn from "./learn.png";
 import Zellij from "./Zellij.jpg";
 import moroccan_road from "./morocco-road.jpg"
+import marRobot from "./marRobot.png"
 export {
   airbnb,
   bill,
@@ -54,5 +55,5 @@ export {
   people01,
   people02,
   people03,
-  map,camera2,learn,Zellij,moroccan_road
+  map,camera2,learn,Zellij,moroccan_road,marRobot
 };

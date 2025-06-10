@@ -6,6 +6,7 @@ import CTA from "./CTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
 import Hero from "./Hero";
+import Chat from "./Chat";
 
 export {
   Navbar,
@@ -16,4 +17,5 @@ export {
   Stats,
   Footer,
   Hero,
+  Chat
 };

@@ -2,9 +2,11 @@ import styles from "../style";
 import videoBg from "../assets/Morocco-bg1.mp4"; // Import your video
 import { Link } from "react-scroll"; 
 import Button from "./Button";
+import { useNavigate } from "react-router-dom";
 // import GetStarted from "./GetStarted";
 
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <section 
       id="home" 
@@ -40,7 +42,7 @@ const Hero = () => {
               {/* <p className="text-lg font-light text-white/80 mt-4 max-w-[600px] mx-auto">
                 Snap, Learn, Explore!
               </p> */}
-            <Button styles={"mt-10"}/>
+            <Button styles={"mt-10"} onClick={() => navigate("/dashboard")} />
             
           </div>
         </div>
