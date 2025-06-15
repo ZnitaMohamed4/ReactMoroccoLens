@@ -1,3 +1,4 @@
+// Updated Business Component
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
@@ -22,11 +23,11 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You explore Morocco, <br className="sm:block hidden" /> we’ll reveal its stories.
+        You capture <span className="text-gradient"> Zellij</span> <br className="sm:block hidden" /> we'll reveal its mastery.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Unlock the secrets of Morocco’s rich heritage with every photo. Discover the stories behind Zellij, caftans, and more,
-       as our app brings tradition to life.
+        Unlock the secrets of Morocco's most intricate art form. Discover the mathematical precision, 
+        symbolic meanings, and centuries-old techniques behind every Zellij pattern.
       </p>
 
       <Button styles={`mt-10`}/>

@@ -29,21 +29,17 @@ const Hero = () => {
 
       {/* Centered Content */}
         <div 
-          className={`absolute inset-0 bg-black/40 flex items-start justify-center text-center z-[1] pt-[9%]`} // Adjust `pt-[10%]` as needed
+          className={`absolute inset-0 bg-black/40 flex items-start justify-center text-center z-[1] pt-[9%]`}
         >
           <div>
             <h1 className="font-poppins font-extrabold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] tracking-wide drop-shadow-lg">
-              Discover <br className="sm:block hidden" />{" "}
-              <span className="text-gradient">Morocco’s</span>{" "}
+              Discover the Art of <br className="sm:block hidden" />{" "}
+              <span className="text-gradient">Zellij</span>{" "}
             </h1>
-            <h1 className="font-poppins font-extrabold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] tracking-wide drop-shadow-lg ">
-              Hidden Stories.
-            </h1>
-              {/* <p className="text-lg font-light text-white/80 mt-4 max-w-[600px] mx-auto">
-                Snap, Learn, Explore!
-              </p> */}
+            <p className="font-poppins italic text-lg text-white/80 mt-4 tracking-wide drop-shadow-sm">
+              Morocco's Ancient Mosaic Mastery
+            </p>
             <Button styles={"mt-10"} onClick={() => navigate("/dashboard")} />
-            
           </div>
         </div>
     </section>

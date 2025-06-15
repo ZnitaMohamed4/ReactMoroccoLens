@@ -18,8 +18,8 @@ const Navbar = () => {
       <div className="font-poppins font-bold cursor-pointer text-[24px] text-[#2A2A2A] hover:text-[#C5A645] transition-colors">
         <h1 className="flex items-center gap-2 drop-shadow-lg">
         {/* <FaCamera className="text-[#C5A645]" /> */}
-          <span className="text-[#9A5442]">Morocco</span>
-          <span className="text-gradient">Lens</span>
+          <span className="text-[#9A5442]">Turathii</span>
+          <span className="text-gradient">IA</span>
         </h1>
       </div>
 

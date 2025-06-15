@@ -10,8 +10,8 @@ export const navLinks = [
     title: "Features",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "stats",
+    title: "Stats",
   },
   {
     id: "clients",
@@ -19,27 +19,28 @@ export const navLinks = [
   },
 ];
 
+// Updated features for Zellij focus
 export const features = [
   {
     id: "feature-1",
     icon: camera2,
-    title: "Snap & Discover",
+    title: "Capture Zellij Patterns",
     content:
-      "Upload or take a photo of Moroccan items (e.g., caftans, Zellij, dishes) to instantly uncover their history, cultural significance, and regional origins.",
+      "Upload or take a photo of Zellij mosaics to instantly identify geometric patterns, tile types, and discover their mathematical precision and symbolic meanings.",
   },
   {
     id: "feature-2",
-    icon: learn ,
-    title: "Learn & Explore",
+    icon: learn,
+    title: "Master the Craft",
     content:
-      "Dive into detailed stories, symbolism, and historical context behind each recognized item, enriching your understanding of Moroccan heritage.",
+      "Chat with Mosaic, our AI guide, to explore ancient techniques, tools, and centuries-old traditions behind Zellij creation, from clay preparation to intricate pattern assembly.",
   },
   {
     id: "feature-3",
     icon: map,
-    title: "Find Authentic",
+    title: "Find Master Artisans",
     content:
-      "Get personalized recommendations for nearby artisans, shops, or workshops to purchase or experience authentic Moroccan products.",
+      "Discover authentic Zellij workshops in Fez and Meknes, connect with master craftsmen (Maâlems), and experience the art form firsthand.",
   },
 ];
 
@@ -70,21 +71,22 @@ export const feedback = [
   },
 ];
 
+// Updated constants for Zellij focus
 export const stats = [
   {
     id: "stats-1",
-    title: "Cultural Stories Unlocked",
-    value: "1,000+ ",
+    title: "Zellij Patterns Discovered",
+    value: "500+",
   },
   {
     id: "stats-2",
-    title: "Curious Explorers”",
-    value: "10,000+",
+    title: "Master Craftsmen Featured",
+    value: "50+",
   },
   {
     id: "stats-3",
-    title: "Traditional Crafts Catalogued",
-    value: "500+",
+    title: "Historic Zellij Sites",
+    value: "100+",
   },
 ];
 

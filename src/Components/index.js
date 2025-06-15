@@ -7,6 +7,7 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Hero from "./Hero";
 import Chat from "./Chat";
+import PingTest from "./PingTest";
 
 export {
   Navbar,
@@ -17,5 +18,6 @@ export {
   Stats,
   Footer,
   Hero,
-  Chat
+  Chat,
+  PingTest
 };
