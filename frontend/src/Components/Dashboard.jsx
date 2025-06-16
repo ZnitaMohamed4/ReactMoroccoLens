@@ -52,7 +52,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-red-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-red-50 mt-12">
       {/* Header */}
       <header className="bg-gradient-to-r from-red-800 via-orange-700 to-amber-600 shadow-xl">
         <div className="max-w-7xl mx-auto px-6 py-8">

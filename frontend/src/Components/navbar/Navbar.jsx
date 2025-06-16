@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import { close, logo, menu } from "../assets";
-import { navLinks } from "../constants";
+import { close, logo, menu } from "../../assets";
+import { navLinks } from "../../constants";
 import { FaCamera } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
 import { FaMonument } from "react-icons/fa";
@@ -13,7 +13,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-<nav className="w-full flex py-4 justify-between items-center bg-white  fixed top-0 left-0 right-0 z-50 px-10 shadow-xl ">
+<nav className="w-full flex py-4 justify-between items-center bg-white  fixed top-0 left-0 right-0 z-50 px-10 shadow-xl border-b-[1px] border-gray-200">
 {/* <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" /> */}
       <div className="font-poppins font-bold cursor-pointer text-[24px] text-[#2A2A2A] hover:text-[#C5A645] transition-colors">
         <h1 className="flex items-center gap-2 drop-shadow-lg">
